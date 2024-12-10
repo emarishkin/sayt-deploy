@@ -1,0 +1,302 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+  color: rgb(0, 0, 0);
+}
+body{
+  background-color: bisque;
+}
+li{
+  list-style: none;
+}
+
+.top{
+  background-image: url('https://cdnn21.img.ria.ru/images/07e6/04/12/1784055381_0:245:3072:1973_1920x1080_80_0_0_2383a1baacf0f10a97f4c0a6a9183443.jpg');
+  background-position: 50% 100%;
+}
+
+.header{
+  padding: 10px;
+  background-color: #666;
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  align-items: center;
+  
+}
+.header img{
+  width: 40px;
+  height: 40px;
+}
+.button{
+  width: 80px;
+  height: 40px;
+  font-size: 17px;
+  border-radius: 5px;
+}
+.main{
+  position: relative;
+  padding-top: 30px;
+  padding-bottom: 1px;
+}
+.modal{
+  position: absolute;
+  width: 500px;
+  height: 400px;
+  border-radius: 20px;
+    border: 2px solid black;
+    z-index: 1;
+    background-color: #666;
+    box-shadow: 0px 0px 14px red;
+    top: 118px;
+    left: 685px;
+}
+.modal button{
+  position: absolute;
+  bottom: 10px;
+  right: 205px;
+}
+.modal img{
+  width: 500px;
+  height: 300px;
+  border-radius: 18px;
+  position: relative;
+}
+button:active{
+  background-color: burlywood;
+}
+.variorA{
+  
+  position: absolute;
+  bottom: 43px;
+  right: 328px;
+}
+.modalInModal{
+  background-color: #666 ;
+  padding: 10px;
+  gap: 3px 0;
+  width: 250px;
+  height: 100px;
+  position: absolute;
+  top: 415px;
+  left: 118px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 13px
+}
+.button-modalA{
+  margin: 0 -182px;
+    padding: 5px;
+    border-radius: 20px;
+}
+.info-text{
+  text-align: center;
+}
+.main-info{
+  margin: 20px 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: -1;
+}
+.main-info li{
+  list-style: none;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  
+}
+
+.Game{
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px 0;
+  margin: 20px auto;
+  padding: 15px;
+  border: 3px solid black;
+  border-radius: 10px;
+  
+}
+.Game li{
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  background-color: #666;
+  width: 480px;
+    text-align: center;
+}
+.Game h1{
+  font-size: 20px;
+  font-weight: 700;
+  color: black;
+  
+}
+
+.result{
+  background-color: darkgreen;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: 3px solid black;
+  padding: 10px;
+  margin: 10px auto;
+  width: 450px;
+}
+.result img{
+  width: 45px;
+  height: 45px;
+}
+.result button{
+  border: 3px solid black;
+  padding: 3px;
+  background-color: burlywood;
+}
+.main-bottom{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1px;
+  margin-top: 20px;
+ 
+}
+.bottom{
+  background-image: url('https://steamuserimages-a.akamaihd.net/ugc/2049737645096425161/5FE4ACC9C5A29A64774771FE1921C09BC4720F19/?imw=512&amp;imh=288&amp;ima=fit&amp;impolicy=Letterbox&amp;imcolor=%23000000&amp;letterbox=true');
+  height: 712px;
+  padding: 10px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+}
+.buttons-itog{
+  border: 2px solid black;
+  display: flex;
+  justify-content: start;
+  gap: 0 15px;
+  padding: 15px;
+  width: 1480px;
+    height: 85px;
+}
+.buttons-itog button{
+  width: 120px;
+    height: 85px;
+  border-radius: 7px;
+}
+
+.itogi-box{
+  width: 1050px;
+  margin-left: 77px;
+  margin-top: 5px;
+}
+
+.images-bottom-main{
+  display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 900px;
+    left: 200px;
+    z-index: 2;
+    gap: 66px;
+}
+
+.images-bottom-main img{
+  width: 310px;
+  height: 210px;
+}
+.footer{
+  padding: 40px;
+  text-align: center;
+  background-color: #666;
+}
+
+@media (width:390px){
+  .top{
+    background-repeat: no-repeat;
+    background-position: 30% 0%;
+  }
+  .main-info li {
+   font-size: 12px;
+  }
+  .Game {
+  width: 300px;
+  }
+  .Game li{
+    width: 270px;
+  }
+  .Game h1{
+    font-size: 13px;
+    text-align: center;
+    }
+  .result {
+     width: 300px; 
+  }
+  .modal {
+    width: 300px;
+    height: 270px;
+   left: 44px;
+  }
+  .modal img {
+    width: 300px;
+    height: 180px;
+  }
+  .variorA {
+    top: 190px;
+   right: 100px;
+  }
+  .modal button {
+   right: 110px;
+  }
+  .modalInModal {
+   left: 14px;
+   top: 291px;
+  }
+  .button-modalA {
+    margin: 0 -97px;
+  }
+  .buttons-itog {
+    font-size: 12px;
+    width: 300px;
+    height: 230px;
+    flex-wrap: wrap;
+  }
+  .buttons-itog button{
+    font-size: 10px;
+    width: 90px;
+        height: 50px;
+  }
+  .itogi-box {
+    width: 300px;
+    margin-left: 0px;
+  }
+.bottom {
+    background-size: 228% 392px;
+  }
+  .bottom-2{
+    background-image: url('https://cdnn21.img.ria.ru/images/07e6/04/12/1784055381_0:245:3072:1973_1920x1080_80_0_0_2383a1baacf0f10a97f4c0a6a9183443.jpg');
+    background-position: 17% 100%;
+    background-size: 1349px 960px;
+  background-repeat: no-repeat;
+  }
+  .images-bottom-main {
+    gap: 0;
+        left: 40px;
+        margin: 0px 40px;
+        top: 1400px;
+        margin: 0;
+}
+  .images-bottom-main img{
+    margin-top: 20px;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .footer{
+    margin-top: 700px
+  }
+}
